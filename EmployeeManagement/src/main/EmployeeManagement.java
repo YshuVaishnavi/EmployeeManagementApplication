@@ -37,6 +37,9 @@ public class EmployeeManagement {
         obj3.deleteDepartment(deleteId);  // call delete method
         System.out.println("Department deleted successfully (if existed).");
         break;
+    case 4:
+		    System.out.println("insert");
+		    break;
     default:
     	System.out.println("invalid option");
     }
